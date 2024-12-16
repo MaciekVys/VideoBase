@@ -1,0 +1,79 @@
+.password-input {
+  position: relative;
+}
+
+.password-input .toggle-password {
+  position: absolute;
+  top: 40%;
+  right: 10px;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.comments-form {
+  padding: 10px;
+}
+.standard-form {
+  width: 40%;
+  border: 2px solid #000;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff !important;
+}
+
+.standard-form h1 {
+  background: #3d3d3d;
+  padding: 10px;
+  margin: -20px -20px 20px -20px;
+  text-align: center;
+  color: #fff;
+}
+.h1 {
+  background: #3d3d3d;
+  padding: 10px;
+  margin: -20px -20px 20px -20px;
+  text-align: center;
+  color: #fff;
+}
+.replay-control {
+  margin: 10px;
+}
+.change-form {
+  border: 2px solid #000;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff !important;
+}
+.filename-form-label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.reply-form {
+  margin-top: 10px;
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 5px;
+}
+.settings-form {
+  background-color: #fff !important;
+}

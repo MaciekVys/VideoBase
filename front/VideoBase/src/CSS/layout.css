@@ -1,0 +1,111 @@
+.videos-centered {
+  margin-left: 10%;
+  margin-right: auto;
+}
+
+.Search {
+  display: flex;
+  width: 33%;
+}
+
+.drop-zone {
+  border: 2px dashed #000000 !important;
+  border-radius: 10px;
+  width: 90%;
+  height: 400px;
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.drop-zone h2 {
+  padding: 30px;
+  font-weight: bolder;
+}
+.views-count {
+  float: right;
+  padding: 10px;
+  margin-right: 20px;
+}
+.min-height {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.comment-replay {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.terms-container {
+  padding: 40px;
+  max-width: 800px;
+  margin-top: 50px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.terms-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  color: #333;
+}
+.replay-user {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.check-replay-box {
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: #e9ecef;
+  border-radius: 5px;
+}
+.button-delete-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.form-select:focus {
+  border-color: gold;
+  box-shadow: 0 0 0 0.2rem rgba(255, 215, 0, 0.5);
+  outline: none;
+}
+.tags {
+  margin-top: 50px;
+  border-radius: 10px;
+}
+.tag {
+  cursor: pointer;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 15px;
+  background-color: #333;
+  color: #ffd700;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid #ffd700;
+}
+
+.tag:hover {
+  background-color: #444;
+  color: #fff;
+}
+.active-tag {
+  background-color: #ffd700;
+  color: #000;
+  border: 1px solid #ffd700;
+}
+.filter-select {
+  margin-top: 420px;
+  position: fixed;
+  z-index: 1000;
+  width: 15%;
+  left: 0;
+}

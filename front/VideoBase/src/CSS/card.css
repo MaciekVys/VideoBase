@@ -1,0 +1,128 @@
+.card {
+  margin-top: 50px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  overflow: hidden;
+  background-color: #ecebeb;
+}
+
+.card-header {
+  background-color: #2c2c2c;
+  color: #ffd700;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Arial", sans-serif;
+  padding-left: 30px;
+}
+
+.card-title {
+  font-weight: bold;
+  color: #333;
+  border-bottom: 2px solid #ffd700;
+  text-transform: uppercase;
+  font-family: "Arial", sans-serif;
+}
+
+.card-text {
+  padding: 15px;
+  color: #555;
+  line-height: 1.6;
+  background-color: #d8d8d8;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.custom-card {
+  width: 100%;
+  border: none;
+  margin-top: auto;
+  padding: 10px;
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+}
+.search-card {
+  width: 100%;
+  border: none;
+  margin-top: auto;
+  padding: 10px;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 5px;
+}
+.custom-card h3 {
+  padding: 10px;
+  border-bottom: 2px solid black;
+}
+.custom-card-header {
+  padding: 10px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.custom-card-title {
+  padding: 10px;
+}
+
+.custom-card-text {
+  padding: 10px;
+}
+.sticky-card {
+  margin-top: 10px;
+  position: fixed;
+  z-index: 1000;
+  width: 15%;
+  left: 0;
+  background-color: #333;
+  border: 1px solid #444;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #fff;
+}
+
+.sticky-card .card-header {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #222;
+  border-bottom: 2px solid #f1c40f;
+  border-radius: 8px 8px 0 0;
+  padding: 10px;
+  color: #fff;
+}
+
+.sticky-card .card-header svg {
+  font-size: 1.5rem;
+  color: #f1c40f;
+}
+
+.sticky-card .list-group-item {
+  background-color: #333;
+  border: none;
+  border-bottom: 1px solid #444;
+  color: #fff;
+}
+
+.sticky-card .list-group-item:hover {
+  background-color: #444;
+  cursor: pointer;
+}
+.subcomment-card {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.sort-card {
+  margin-top: 420px;
+  position: fixed;
+  z-index: 1000;
+  width: 15%;
+  left: 0;
+}

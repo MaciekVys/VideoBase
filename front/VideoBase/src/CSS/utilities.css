@@ -1,0 +1,98 @@
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.links {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.coments {
+  padding: 10px;
+}
+.replay-user {
+  font-weight: bold;
+  padding: 5px;
+}
+.subcomments {
+  margin-top: 15px;
+}
+.user-profile {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  background-color: #3d3d3d;
+  padding: 10px;
+}
+
+.avatar img {
+  width: 64px;
+  height: 60px;
+  border-radius: 25%;
+  margin-right: 15px;
+}
+
+.username {
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+}
+
+.email {
+  font-size: 14px;
+  color: #d3d3d3;
+}
+.settings-container {
+  margin-top: 100px;
+  width: 300px;
+}
+.settings-content {
+  width: 80%;
+  float: right;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.subcomment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.check-replay-box {
+  margin-top: 10px;
+  padding: 5px;
+  background-color: #e9ecef;
+  border-radius: 5px;
+}
+
+.dropdown-toggle {
+  padding: 5px;
+}
+
+.reply-control {
+  margin-bottom: 10px;
+}
+/*--------------------------------*/
+.comment-container {
+  border-bottom: 2px solid #dad9d9;
+  padding: 10px;
+  margin-bottom: 10px;
+  position: relative;
+}
+.comment-menu {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.comment-username {
+  font-weight: bold;
+}
